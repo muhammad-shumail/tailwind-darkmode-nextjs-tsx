@@ -30,7 +30,7 @@ export default function Home() {
 
         <p className="mt-3 text-2xl">
           Get started by editing{" "}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
+          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md dark:text-purple-700 dark:bg-gray-200">
             pages/index.js
           </code>
         </p>
@@ -78,7 +78,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="flex flex-wrap items-center justify-center w-full h-24 border-t">
+      <footer className="flex flex-wrap items-center justify-center w-full h-36 border-t">
         <div className="mt-2 items-center justify-center">
           <p className="flex-wrap mb-2">The current theme is: {theme}.</p>
 
