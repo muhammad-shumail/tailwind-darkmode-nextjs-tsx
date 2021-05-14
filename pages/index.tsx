@@ -2,8 +2,6 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 
-const themes = [{ name: "Light" }, { name: "Dark" }];
-
 export default function Home() {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
